@@ -4,7 +4,7 @@ public class Attribute
 #pragma warning restore CA1711 // Identifiers should not have incorrect suffix
 {
     public int Id { get; set; }
-    public string? Value { get; set; }
+    public required string Value { get; set; }
     public int AttributeTypeId { get; set; }
     public int RegisteredById { get; set; }
 
