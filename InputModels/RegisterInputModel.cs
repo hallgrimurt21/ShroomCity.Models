@@ -11,6 +11,8 @@ public class RegisterInputModel
     [EmailAddress]
     public required string EmailAddress { get; set; }
 
+    public string? Bio { get; set; }
+
     [Required]
     [MinLength(6)]
     public required string Password { get; set; }
