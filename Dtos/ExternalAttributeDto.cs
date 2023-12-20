@@ -1,6 +1,5 @@
-using System.Text.Json.Serialization;
-
 namespace ShroomCity.Models.Dtos;
+using System.Text.Json.Serialization;
 
 public class ExternalAttributeDto
 {
