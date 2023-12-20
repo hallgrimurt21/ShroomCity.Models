@@ -10,6 +10,6 @@ public class User
     public required string EmailAddress { get; set; }
 
     // Navigation properties
-    public ICollection<Role> Roles { get; set; } = new List<Role>();
+    public required Role Role { get; set; }
 
 }
