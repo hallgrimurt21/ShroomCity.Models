@@ -11,7 +11,7 @@ public class Attribute
     public int RegisteredById { get; set; }
 
     // Navigation properties
-    public AttributeType? AttributeType { get; set; }
-    public User? RegisteredBy { get; set; }
+    public required AttributeType AttributeType { get; set; }
+    public required User RegisteredBy { get; set; }
     public ICollection<Mushroom> Mushrooms { get; set; } = new List<Mushroom>();
 }
