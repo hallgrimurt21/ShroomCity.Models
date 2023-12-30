@@ -9,5 +9,5 @@ public class Entry
 
 public class ResearchEntryInputModel
 {
-    public List<Entry>? Entries { get; set; }
+    public required List<Entry> Entries { get; set; }
 }
