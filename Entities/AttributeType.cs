@@ -6,6 +6,6 @@ public class AttributeType
     public required string Type { get; set; }
 
     // Navigation properties
-    public Attribute? Attribute { get; set; } // Navigation property
+    public List<Attribute> Attributes { get; set; } = new List<Attribute>();
 }
 
